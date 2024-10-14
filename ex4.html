@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Links</title>
+
+    <style>
+        /* Consolas 폰트 */
+        .consolas-regular {
+            font-family: 'Consolas', monospace;
+        }
+        
+        /* Consolas 폰트 - 기울임꼴 */
+        .consolas-italic {
+            font-family: 'Consolas', monospace;
+            font-style: italic;
+        }
+
+        /* Consolas 폰트 - 굵게 */
+        .consolas-bold {
+            font-family: 'Consolas', monospace;
+            font-weight: bold;
+        }
+
+        /* DungGeunMo 폰트 */
+        @font-face {
+            font-family: 'DungGeunMo';
+            src: url('DungGeunMo.ttf') format('truetype');
+        }
+
+        .dunggeunmo {
+            font-family: 'DungGeunMo', sans-serif;
+            background-color: blue;
+            color: white;
+            padding: 5px;
+        }
+
+        /* 하이퍼링크 스타일 */
+        a {
+            color: purple;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 하이퍼링크 안에 다양한 스타일 적용 -->
+    <p>
+        <a href="ex5.html"></a>
+          <p> <span class="consolas-regular">Consolas Regular</span> </p>
+        <p><span class="consolas-italic">Consolas Italic</span> </p>
+    <p><span class="consolas-bold">Consolas Bold</span> and </p>
+    <p>  <span class="dunggeunmo">DungGeunMo Styled Text</span>
+        
+    </p>
+
+</body>
+</html>
